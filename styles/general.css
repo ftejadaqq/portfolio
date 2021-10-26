@@ -1,0 +1,29 @@
+/* background-light rgb(249, 244, 255) */
+/* font-headings (h1-h3) rgb(0, 58, 82) */
+/* font-body rgb(122, 122, 122) */
+
+/* font-size */
+/* 10px */
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.6rem;
+}
+h1,
+h2 {
+  font-size: 2.8rem;
+  color: rgb(0, 58, 82);
+}
+h3 {
+  font-size: 2rem;
+  color: rgb(0, 58, 82);
+}
+p {
+  font-size: 1.8rem;
+  color: rgb(122, 122, 122);
+}
+a {
+  text-decoration: none;
+}

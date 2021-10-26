@@ -1,0 +1,16 @@
+.nav-container,
+.nav-menu {
+  display: flex;
+}
+
+.nav-container {
+  padding: 20px;
+  justify-content: space-between;
+}
+.nav-menu-item {
+  margin-left: 10px;
+}
+
+.hero-container {
+  background-color: rgb(247, 247, 247);
+}
