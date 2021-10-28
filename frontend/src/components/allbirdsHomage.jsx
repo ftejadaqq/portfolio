@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import AllbirdsPic from "../images/allbirds.jpg";
 
-class AllbirdsHomage extends React.Component {
+class AllbirdsHomage extends Component {
   render() {
     return (
       <div className="grouping-container allbirds-homage">
@@ -10,7 +10,7 @@ class AllbirdsHomage extends React.Component {
             <h3>Allbirds Replica</h3>
           </div>
         </div>
-        <div className="stackedContainers">
+        <div className="stacked-containers">
           <div className="container image-allbirds-homage">
             <div>
               <img src={AllbirdsPic} alt="allbirds homage"></img>

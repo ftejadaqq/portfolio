@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import ClipboardPic from "../images/clipboard.jpg";
 
-class DesignFiles extends React.Component {
+class DesignFiles extends Component {
   render() {
     return (
       <div className="grouping-container design-file">
-        <div className="stackedContainers">
+        <div className="stacked-containers">
           <div className="container image-design-file">
             <div>
               <img src={ClipboardPic} alt="clipboard landing page"></img>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Contact extends React.Component {
+class Contact extends Component {
   render() {
     return (
       <section class="section-contact">
@@ -9,9 +9,9 @@ class Contact extends React.Component {
           <p>I'm actively seeking a junior developer role</p>
           <p>ftejadaq7@gmail.com</p>
           <div class="contact-container-icons">
-            <div>in</div>
-            <div>Github</div>
-            <div>cpen</div>
+            <div className="contact-container-icon">in</div>
+            <div className="contact-container-icon">Github</div>
+            <div className="contact-container-icon">cpen</div>
           </div>
         </div>
       </section>

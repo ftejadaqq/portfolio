@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import HackathonPic from "../images/hackathon.png";
 
-class HackathonApp extends React.Component {
+class HackathonApp extends Component {
   render() {
     return (
       <div className="grouping-container hackthon-app">
@@ -16,10 +16,10 @@ class HackathonApp extends React.Component {
             <p>Built using React, Redux, HTML and CSS</p>
           </div>
         </div>
-        <div className="stackedContainers">
+        <div className="stacked-containers">
           <div className="container image-hackathon-app">
             <div>
-              <img src={HackathonAppPic} alt="hackathon app"></img>
+              <img src={HackathonPic} alt="hackathon app"></img>
             </div>
           </div>
           <div className="container description-hackathon-app">

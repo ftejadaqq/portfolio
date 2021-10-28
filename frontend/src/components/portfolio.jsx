@@ -6,16 +6,18 @@ import ThePainterApp from "./thepainterApp";
 import DesignFiles from "./designFiles";
 import Johnogroats from "./johnogroats";
 
-class Portfolio extends React.Component {
+class Portfolio extends Component {
   render() {
     return (
       <section className="section-portfolio">
-        <FeaturedApp />
-        <HackathonApp />
-        <AllbirdsHomage />
-        <ThePainterApp />
-        <DesignFiles />
-        <Johnogroats />
+        <div className="portfolio-container content">
+          <FeaturedApp />
+          <HackathonApp />
+          <AllbirdsHomage />
+          <ThePainterApp />
+          <DesignFiles />
+          <Johnogroats />
+        </div>
       </section>
     );
   }

@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import JohnogroatsPic from "../images/johnogroats.png";
 
-class Johnogroats extends React.Component {
+class Johnogroats extends Component {
   render() {
     return (
       <div className="grouping-container johnogroats">
-        <div className="stackedContainers">
+        <div className="stacked-containers">
           <div className="container image-johnogroats">
             <div>
               <img src={JohnogroatsPic} alt="John O' Groats SVG"></img>

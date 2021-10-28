@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import MontessoriAppPic from "../images/montessoribymonth.png";
 
-class FeaturedApp extends React.Component {
+class FeaturedApp extends Component {
   render() {
     return (
       <section className="section-featured-app">
@@ -27,7 +27,7 @@ class FeaturedApp extends React.Component {
             </div>
           </div>
 
-          <div className="stackedContainers">
+          <div className="stacked-containers">
             <div className="container image-featured-app">
               <div>
                 <img src={MontessoriAppPic} alt="montessori app"></img>

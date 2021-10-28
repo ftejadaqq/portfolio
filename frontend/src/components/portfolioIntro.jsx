@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class PortfolioIntro extends React.Component {
+class PortfolioIntro extends Component {
   render() {
     return (
       <section class="section-portfolio-intro">

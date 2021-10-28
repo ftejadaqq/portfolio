@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import ThePainterPic from "../images/thepainter.png";
 
-class ThePainterApp extends React.Component {
+class ThePainterApp extends Component {
   render() {
     return (
       <div className="grouping-container the-painter-app">
-        <div className="stackedContainers">
+        <div className="stacked-containers">
           <div className="container image-the-painter-app">
             <div>
-              <img src={ThePainterAppPic} alt="the painter app"></img>
+              <img src={ThePainterPic} alt="the painter app"></img>
             </div>
           </div>
           <div className="container description-the-painter-app">

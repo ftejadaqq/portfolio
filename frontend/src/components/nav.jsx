@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Nav extends React.Component {
+class Nav extends Component {
   render() {
     return (
       <section class="section-nav">
