@@ -1,8 +1,8 @@
 $light-bg-color: rgb(247, 247, 247);
-$dark-font: rgb(34, 34, 59);
-$blue-font: rgb(111, 193, 203);
+$dark-font: rgb(9, 24, 54);
+$blue-font: rgb(92, 216, 233);
 $orange-font: rgb(255, 184, 151);
-$grey-font: rgb(155, 155, 155);
+$grey-font: rgb(95, 95, 95);
 
 // mobile 375px; desktop 1000px
 * {
@@ -37,6 +37,7 @@ h2 {
   font-size: 2.9rem;
   color: $dark-font;
   margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
 }
 h3 {
   font-size: 2rem;
@@ -50,6 +51,7 @@ h4 {
 }
 p {
   font-size: 1.8rem;
+  font-family: "Lora", serif;
   color: $grey-font;
 }
 
@@ -88,14 +90,24 @@ img {
 // nav
 .section-nav {
   background-color: $light-bg-color;
+  position: fixed;
+  top: 0;
+  width: 100vw;
 }
 .nav-container {
   font-size: 1.3rem;
+  align-items: center;
 }
 .nav-container,
 .nav-menu-item {
   justify-content: space-between;
 }
+.nav-logo a {
+  font-family: "Arsenal", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
 .nav-menu-item {
   margin-right: 7px;
 }
@@ -129,11 +141,10 @@ img {
   background-color: $light-bg-color;
 }
 // portfolio
-.section-portfolio {
-  background-color: $light-bg-color;
-}
+
 .grouping-container {
   margin-bottom: 30px;
+  border-radius: 10px;
 }
 .grouping-container img {
   margin-top: 15px;
@@ -159,6 +170,10 @@ img {
 .contact-container-icon {
   padding: 10px;
 }
+.contact-container-icons img {
+  width: 20px;
+}
+
 .contact-container p {
   margin-bottom: 15px;
 }
@@ -212,6 +227,11 @@ img {
     background-color: $dark-font;
   }
   //  featured app
+  .grouping-container {
+    background-color: $light-bg-color;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .stacked-containers {
     display: flex;
     flex-direction: row;
@@ -230,8 +250,21 @@ img {
     margin: auto;
     text-align: center;
   }
-  .grouping-container.featured-app {
-    padding-top: 40px;
-    padding-bottom: 40px;
+
+  // skills
+  .skills-container-items {
+    display: flex;
+    justify-content: space-evenly;
   }
 }
+
+// color test
+// .section-hero,
+// .section-contact,
+// .section-skills,
+// .section-portfolio {
+//   background-color: $light-bg-color;
+// }
+// .section-nav {
+//   background-color: rgba(31, 31, 88, 0.651);
+// }

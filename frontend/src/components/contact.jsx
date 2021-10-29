@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import LinkedinIcon from "../images/linkedin.svg";
+import GithubIcon from "../images/github.svg";
+import CodepenIcon from "../images/codepen.svg";
 
 class Contact extends Component {
   render() {
@@ -9,9 +12,15 @@ class Contact extends Component {
           <p>I'm actively seeking a junior developer role</p>
           <p>ftejadaq7@gmail.com</p>
           <div class="contact-container-icons">
-            <div className="contact-container-icon">in</div>
-            <div className="contact-container-icon">Github</div>
-            <div className="contact-container-icon">cpen</div>
+            <div className="contact-container-icon">
+              <img src={GithubIcon} alt="github logo"></img>
+            </div>
+            <div className="contact-container-icon">
+              <img src={LinkedinIcon} alt="linkedin logo"></img>
+            </div>
+            <div className="contact-container-icon">
+              <img src={CodepenIcon} alt="codepen logo"></img>
+            </div>
           </div>
         </div>
       </section>
