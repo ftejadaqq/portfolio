@@ -7,7 +7,7 @@ class Nav extends Component {
         <nav class="nav-container content">
           <div class="nav-logo">
             <a href="www.faithtejada.com">
-              <span>{`{FaithTejada}`}</span>
+              <span>{`{FT}`}</span>
             </a>
           </div>
           <div class="nav-menu">

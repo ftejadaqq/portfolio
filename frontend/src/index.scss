@@ -1,7 +1,7 @@
-$light-bg-color: rgb(247, 247, 247);
-$dark-font: rgb(9, 24, 54);
-$blue-font: rgb(92, 216, 233);
-$orange-font: rgb(255, 184, 151);
+$light-bg-color: rgb(242, 240, 238);
+$dark-font: rgb(88, 89, 91);
+$blue-font: rgb(88, 89, 91);
+$orange-font: rgb(230, 84, 70);
 $grey-font: rgb(95, 95, 95);
 
 // mobile 375px; desktop 1000px
@@ -73,6 +73,7 @@ code {
 }
 .hero-container,
 .portfolio-container,
+.portfolio-intro-container,
 .about-container {
   text-align: left;
 }
@@ -89,10 +90,11 @@ img {
 
 // nav
 .section-nav {
-  background-color: $light-bg-color;
   position: fixed;
   top: 0;
   width: 100vw;
+  background-color: white;
+  box-shadow: rgba(244, 244, 245, 0.945) 0px 1px 4px 0px;
 }
 .nav-container {
   font-size: 1.3rem;
@@ -114,32 +116,46 @@ img {
 .nav-menu-item a {
   color: $blue-font;
 }
+.nav-menu-item:nth-child(5) {
+  border-bottom: 2px solid $orange-font;
+}
 
 // hero
 .section-hero {
-  height: 60vh;
-  display: flex;
+  background-color: $light-bg-color;
+  margin: auto;
+}
+
+.hero-container {
+  margin-top: 60px;
+}
+.hero-container-item {
+  margin: auto;
 }
 .hero-pic img {
   border-radius: 50%;
-  width: 100px;
+  width: 150px;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.hero-text p {
+.hero-text-description {
+  margin-bottom: 40px;
   font-size: 2rem;
 }
-.hero-text-description {
-  margin-bottom: 20px;
-}
 .hero-container-link {
-  color: $blue-font;
+  border: 2px solid $orange-font;
+  border-radius: 5px;
+  width: 250px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: $orange-font;
+  padding: 8px 5px 8px 5px;
+  margin-top: 20px;
 }
-
 // portfolio intro
-.section-portfolio-intro {
-  background-color: $light-bg-color;
-}
+
 // portfolio
 
 .grouping-container {
@@ -181,7 +197,10 @@ img {
 // footer
 
 .section-footer {
-  background-color: $light-bg-color;
+  background-color: rgb(243, 135, 126);
+}
+.footer-container p {
+  color: white;
 }
 
 // media queries for desktop
@@ -204,28 +223,33 @@ img {
   }
 
   // hero
-  .hero-container {
-    display: flex;
-    justify-content: center;
+  .section-hero {
+    height: 550px;
   }
   .hero-text {
     width: 400px;
+    text-align: center;
+  }
+  .hero-container.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 70px;
   }
   .hero-container img {
     width: 150px;
-    margin-right: 50px;
+  }
+  .hero-container-link {
+    margin: auto;
   }
 
   // portfolio intro
   .portfolio-intro-container p {
     width: 400px;
-    margin: auto;
   }
 
   // portfolio
-  .section-portfolio {
-    background-color: $dark-font;
-  }
+
   //  featured app
   .grouping-container {
     background-color: $light-bg-color;
