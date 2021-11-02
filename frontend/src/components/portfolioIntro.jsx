@@ -6,7 +6,7 @@ class PortfolioIntro extends Component {
       <section class="section-portfolio-intro">
         <div class="portfolio-intro-container content">
           <div>
-            <h2>Portfolio</h2>
+            <h2>My Work</h2>
           </div>
           <div>
             <p>

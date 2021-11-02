@@ -5,6 +5,17 @@ class ThePainterApp extends Component {
   render() {
     return (
       <div className="grouping-container the-painter-app">
+        <div className="container heading-allbirds-homage">
+          <div>
+            <h3>Jose Tejada, The Painter</h3>
+          </div>
+          <div>
+            <h4>Frontend App</h4>
+          </div>
+          <div>
+            <p>React, HTML and SCSS</p>
+          </div>
+        </div>
         <div className="stacked-containers">
           <div className="container image-the-painter-app">
             <div>
@@ -13,9 +24,7 @@ class ThePainterApp extends Component {
           </div>
           <div className="container description-the-painter-app">
             <div>
-              <h3>Jose Tejada, The Painter</h3>
-            </div>
-            <div>
+              <h5 className="background">Background</h5>
               <p>
                 Real world website for my father's artwork using React, SCSS,
                 Flexbox and Grid. It has been a long time dream of his to

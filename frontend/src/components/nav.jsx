@@ -13,7 +13,7 @@ class Nav extends Component {
           <div class="nav-menu">
             <div class="nav-menu-item">
               <a href="placeonpage">
-                <span>Portfolio</span>
+                <span>Work</span>
               </a>
             </div>
             <div class="nav-menu-item">

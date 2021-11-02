@@ -1,4 +1,4 @@
-$light-bg-color: rgb(242, 240, 238);
+$light-bg-color: rgb(247, 248, 248);
 $dark-font: rgb(88, 89, 91);
 $blue-font: rgb(88, 89, 91);
 $orange-font: rgb(230, 84, 70);
@@ -27,6 +27,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p {
   margin: 0;
   line-height: 1.4;
@@ -48,6 +49,12 @@ h4 {
   font-size: 1.8rem;
   color: $orange-font;
   margin-bottom: 7px;
+}
+h5 {
+  color: $dark-font;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 5px;
 }
 p {
   font-size: 1.8rem;
@@ -124,6 +131,7 @@ img {
 .section-hero {
   background-color: $light-bg-color;
   margin: auto;
+  height: 500px;
 }
 
 .hero-container {
@@ -158,16 +166,32 @@ img {
 
 // portfolio
 
+// .grouping-container {
+//   margin-bottom: 30px;
+//   border-radius: 10px;
 .grouping-container {
-  margin-bottom: 30px;
-  border-radius: 10px;
+  background-color: $light-bg-color;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 30px;
+  margin-bottom: 40px;
 }
+
 .grouping-container img {
   margin-top: 15px;
-  margin-bottom: 15px;
+  width: 250px;
 }
 .grouping-container p {
   font-size: 1.4rem;
+}
+
+// for featured app
+.portfolio-container svg {
+  margin-top: 20px;
+  width: 40px;
+}
+// for hackathon app
+.background {
+  margin-top: 20px;
 }
 
 // about
@@ -253,8 +277,10 @@ img {
   //  featured app
   .grouping-container {
     background-color: $light-bg-color;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-bottom: 80px;
   }
   .stacked-containers {
     display: flex;
@@ -265,14 +291,29 @@ img {
   }
   .stacked-containers img {
     margin-right: 40px;
+    width: 300px;
+  }
+
+  .portfolio-container svg {
+    margin-top: 0px;
+    width: 40px;
   }
   .heading-featured-app,
   .link-featured-app,
   .heading-hackathon-app,
-  .heading-allbirds-homage {
+  .heading-allbirds-homage,
+  .heading-design-file,
+  .heading-johnogroats {
     width: 400px;
     margin: auto;
     text-align: center;
+  }
+  .text-hackathon-app {
+    text-align: center;
+  }
+  .clipboard img,
+  .image-johnogroats {
+    margin-left: 40px;
   }
 
   // skills

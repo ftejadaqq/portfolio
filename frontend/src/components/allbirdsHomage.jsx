@@ -9,6 +9,12 @@ class AllbirdsHomage extends Component {
           <div>
             <h3>Allbirds Replica</h3>
           </div>
+          <div>
+            <h4>Web Page Recreation</h4>
+          </div>
+          <div>
+            <p>HTML and CSS</p>
+          </div>
         </div>
         <div className="stacked-containers">
           <div className="container image-allbirds-homage">
@@ -17,11 +23,12 @@ class AllbirdsHomage extends Component {
             </div>
           </div>
           <div className="container description-allbirds-homage">
+            <h5 className="background">Background</h5>
             <div>
               <p>
                 I love Allbirds shoes and am drawn to the minimal and earthy
-                feel of their website. This was a recreation of their home page.
-                Some of the highlights were practicising flexbox and responsive
+                feel of their website. Some of the highlights in recreating
+                their homepage were practicising flexbox and responsive
                 rendering, and learning to be my own project manager by breaking
                 the project up into sensbile bits - because nothing can be
                 solved monolithically.
