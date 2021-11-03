@@ -9,12 +9,12 @@ class Skills extends Component {
             <h2>My Skills</h2>
             <p>
               Here's a snapshot of what I can do. I'm always open to learning
-              new languages and once I've mastered them, always happy to help
-              fellow colleagues.
+              new languages and once I've mastered them, happy to help fellow
+              colleagues.
             </p>
           </div>
           <div class="skills-container-items">
-            <div>
+            <div className="skills-container-item">
               <h5>FRONTEND DEV</h5>
               <p>
                 <b>CSS, HTML5, Javascript, React, SCSS and FIGMA.</b> Build
@@ -24,7 +24,7 @@ class Skills extends Component {
                 Redux.
               </p>
             </div>
-            <div>
+            <div className="skills-container-item">
               <h5>BACKEND DEV</h5>
               <p>
                 <b>
@@ -36,7 +36,7 @@ class Skills extends Component {
                 personal reference.
               </p>
             </div>
-            <div>
+            <div className="skills-container-item">
               <h5>PROJECT COORDINATION</h5>
               <p>
                 Extensive experience in project coordination at medical
@@ -45,6 +45,9 @@ class Skills extends Component {
                 last position and successfully virtually trained new starter
                 during the pandemic.
               </p>
+            </div>
+            <div className="skills-container-item">
+              <p className="skills-container-link">See my work</p>
             </div>
           </div>
         </div>

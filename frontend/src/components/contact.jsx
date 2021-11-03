@@ -12,7 +12,10 @@ class Contact extends Component {
       <section class="section-contact">
         <div class="contact-container content">
           <h2>Get In Touch</h2>
-          <p>I'm actively seeking a junior developer role</p>
+          <p>
+            I'm actively seeking a junior developer role. Please feel free to
+            reach out.
+          </p>
           <p>ftejadaq7@gmail.com</p>
           <div class="contact-container-icons">
             <div className="contact-container-icon">
