@@ -18,14 +18,20 @@ class DesignFiles extends Component {
           </div>
         </div>
         <div className="stacked-containers">
-          <div className="container image-design-file">
+          <div className="container image-design-file overlaid">
             <div className="clipboard">
               <img src={ClipboardPic} alt="clipboard landing page"></img>
+              <div className="image-overlay">
+                <div className="overlay-text">VISIT SITE</div>
+              </div>
             </div>
           </div>
-          <div className="container image-design-file">
-            <div>
+          <div className="container image-design-file overlaid">
+            <div className="fourcard">
               <img src={FourcardPic} alt="four card design"></img>
+              <div className="image-overlay">
+                <div className="overlay-text">VISIT SITE</div>
+              </div>
             </div>
           </div>
         </div>

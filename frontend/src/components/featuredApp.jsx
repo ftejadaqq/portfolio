@@ -28,9 +28,12 @@ class FeaturedApp extends Component {
           </div>
 
           <div className="stacked-containers">
-            <div className="container image-featured-app">
+            <div className="container image-featured-app overlaid">
               <div>
                 <img src={MontessoriAppPic} alt="montessori app"></img>
+                <div className="image-overlay">
+                  <div className="overlay-text">VISIT SITE</div>
+                </div>
               </div>
             </div>
             <div className="container description-featured-app">

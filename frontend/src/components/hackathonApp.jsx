@@ -17,9 +17,12 @@ class HackathonApp extends Component {
           </div>
         </div>
         <div className="stacked-containers">
-          <div className="container image-hackathon-app">
+          <div className="container image-hackathon-app overlaid">
             <div>
               <img src={HackathonPic} alt="hackathon app"></img>
+              <div className="image-overlay">
+                <div className="overlay-text">VISIT SITE</div>
+              </div>
             </div>
           </div>
           <div className="container description-hackathon-app">

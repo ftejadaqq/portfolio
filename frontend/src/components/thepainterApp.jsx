@@ -17,9 +17,12 @@ class ThePainterApp extends Component {
           </div>
         </div>
         <div className="stacked-containers">
-          <div className="container image-the-painter-app">
+          <div className="container image-the-painter-app overlaid">
             <div>
               <img src={ThePainterPic} alt="the painter app"></img>
+              <div className="image-overlay">
+                <div className="overlay-text">VISIT SITE</div>
+              </div>
             </div>
           </div>
           <div className="container description-the-painter-app">

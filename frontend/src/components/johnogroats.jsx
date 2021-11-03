@@ -18,8 +18,11 @@ class Johnogroats extends Component {
           </div>
         </div>
         <div className="stacked-containers">
-          <div className="container image-johnogroats">
+          <div className="container image-johnogroats overlaid">
             <img src={JohnogroatsPic} alt="John O' Groats SVG"></img>
+            <div className="image-overlay">
+              <div className="overlay-text">VISIT SITE</div>
+            </div>
           </div>
           <div className="container photo-johnogroats">
             <img src={JohnogroatsOriginal} alt="holidayphoto"></img>

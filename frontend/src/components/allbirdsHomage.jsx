@@ -17,9 +17,10 @@ class AllbirdsHomage extends Component {
           </div>
         </div>
         <div className="stacked-containers">
-          <div className="container image-allbirds-homage">
-            <div>
-              <img src={AllbirdsPic} alt="allbirds homage"></img>
+          <div className="container image-allbirds-homage overlaid">
+            <img src={AllbirdsPic} alt="allbirds homage"></img>
+            <div className="image-overlay">
+              <div className="overlay-text">VISIT SITE</div>
             </div>
           </div>
           <div className="container description-allbirds-homage">

@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import LinkedinIcon from "../images/linkedin.svg";
 import GithubIcon from "../images/github.svg";
 import CodepenIcon from "../images/codepen.svg";
+// import SendFixedIcon from "../images/sendFixed.svg";
+// import GithubFixedIcon from "../images/githubFixed.svg";
+// import LinkedinFixedIcon from "../images/linkedinFixed.svg";
 
 class Contact extends Component {
   render() {
@@ -23,6 +26,17 @@ class Contact extends Component {
             </div>
           </div>
         </div>
+        {/* <div className="fixed-icons">
+          <div className="github-fixed-icon">
+            <img src={GithubFixedIcon} alt="github icon"></img>
+          </div>
+          <div className="send-fixed-icon">
+            <img src={SendFixedIcon} alt="send email icon"></img>
+          </div>
+          <div className="linkedin-fixed-icon">
+            <img src={LinkedinFixedIcon} alt="linkedin icon"></img>
+          </div>
+        </div> */}
       </section>
     );
   }
