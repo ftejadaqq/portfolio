@@ -1,7 +1,6 @@
-$light-bg-color: rgb(247, 248, 248);
-$dark-font: rgb(88, 89, 91);
-$blue-font: rgb(88, 89, 91);
-$orange-font: rgb(230, 84, 70);
+$light-grey: rgb(247, 248, 248);
+$dark-grey: rgb(88, 89, 91);
+$coral: rgb(230, 84, 70);
 $grey-font: rgb(95, 95, 95);
 
 // mobile 375px; desktop 1000px
@@ -12,6 +11,7 @@ $grey-font: rgb(95, 95, 95);
 html {
   font-size: 10px;
   height: 100vh;
+  width: 100vw;
 }
 
 body {
@@ -36,22 +36,22 @@ p {
 h1,
 h2 {
   font-size: 2.9rem;
-  color: $dark-font;
+  color: $dark-grey;
   margin-bottom: 20px;
   font-family: "Poppins", sans-serif;
 }
 h3 {
   font-size: 2rem;
-  color: $blue-font;
+  color: $dark-grey;
   margin-bottom: 7px;
 }
 h4 {
   font-size: 1.8rem;
-  color: $orange-font;
+  color: $coral;
   margin-bottom: 7px;
 }
 h5 {
-  color: $dark-font;
+  color: $dark-grey;
   font-family: "Poppins", sans-serif;
   font-size: 1.4rem;
   margin-bottom: 5px;
@@ -64,13 +64,15 @@ p {
 
 a {
   text-decoration: none;
-  color: $dark-font;
+  color: $dark-grey;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+// more generic css
 
 // content for each section
 .content {
@@ -92,9 +94,12 @@ img {
 .contact-container-icons {
   display: flex;
 }
-
 // end of generic css
 
+// main for z-index - otherwise overlaid div images go on top of the nav when scrolling up
+main {
+  z-index: -1;
+}
 // nav
 .section-nav {
   position: fixed;
@@ -121,23 +126,24 @@ img {
 .nav-menu-item {
   margin-right: 7px;
 }
+.nav-menu-item:hover {
+  background-color: rgba(153, 154, 214, 0.671);
+  padding: 3px;
+  transform: skew(0deg, 3deg);
+}
 .nav-menu-item a {
-  color: $blue-font;
+  color: $dark-grey;
 }
 .nav-menu-item:nth-child(5) {
-  border-bottom: 2px solid $orange-font;
+  border-bottom: 2px solid $coral;
 }
-// main for z-index
-main {
-  z-index: -1;
-}
+
 // hero
 .section-hero {
-  background-color: $light-bg-color;
+  background-color: $light-grey;
   margin: auto;
   height: 500px;
 }
-
 .hero-container {
   margin-top: 60px;
 }
@@ -146,31 +152,36 @@ main {
 }
 .hero-pic img {
   border-radius: 50%;
-  width: 150px;
+  width: 120px;
+  margin-top: 20px;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .hero-text-description {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-size: 2rem;
 }
 .hero-container-link {
-  border: 2px solid $orange-font;
+  border: 2px solid $coral;
   border-radius: 5px;
   width: 250px;
   font-size: 1.5rem;
   text-align: center;
-  color: $orange-font;
+  color: $coral;
   padding: 8px 5px 8px 5px;
-  margin-top: 20px;
+}
+.hero-container-link:hover,
+.skills-container-link:hover {
+  background-color: rgba(153, 154, 214, 0.671);
+  color: $dark-grey;
+  border: none;
 }
 
 // portfolio
-
 .grouping-container {
-  background-color: $light-bg-color;
+  background-color: $light-grey;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 30px;
   margin-bottom: 40px;
@@ -198,6 +209,7 @@ main {
 // image overlays
 .container.overlaid {
   position: relative;
+  cursor: pointer;
 }
 .image-overlay {
   position: absolute;
@@ -231,13 +243,12 @@ main {
 }
 
 // skills/what I can do
-
 .skills-heading,
 .skills-container-items {
   text-align: left;
 }
 .skills-container-items {
-  background-color: $light-bg-color;
+  background-color: $light-grey;
   padding: 10px;
   margin-bottom: 40px;
   margin-top: 40px;
@@ -250,11 +261,11 @@ main {
   font-size: 1.8rem;
 }
 .skills-container-link {
-  border: 2px solid $orange-font;
+  border: 2px solid $coral;
   border-radius: 5px;
   width: 200px;
   font-size: 1.5rem;
-  color: $orange-font;
+  color: $coral;
   padding: 8px 5px 8px 5px;
   margin-top: 20px;
   text-align: center;
@@ -262,18 +273,19 @@ main {
 
 // about
 .about-container {
-  background-color: rgba(153, 154, 214, 0.671);
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: rgba(153, 154, 214, 0.671);
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.219) 0px 7px 29px 0px;
   margin-bottom: 40px;
 }
 .about-container h2 {
-  border-bottom: 2px solid $orange-font;
+  border-bottom: 2px solid $coral;
   width: 70px;
 }
 .about-container p {
   margin-bottom: 15px;
   font-size: 1.4rem;
-  color: $dark-font;
+  color: $dark-grey;
 }
 
 // contact
@@ -293,20 +305,19 @@ main {
 
 .contact-container p {
   margin-bottom: 20px;
-  color: $dark-font;
+  color: $dark-grey;
 }
 p.email {
   color: rgb(230, 84, 70);
 }
 
 // footer
-
 .section-footer {
-  background-color: $light-bg-color;
+  background-color: $light-grey;
 }
 .footer-container p {
-  color: $dark-font;
-  font-size: 1.4rem;
+  color: $dark-grey;
+  font-size: 1.3rem;
 }
 
 // media queries for desktop
@@ -315,9 +326,6 @@ p.email {
   .content {
     min-width: 750px;
     padding: 30px;
-  }
-  img {
-    width: fit-content;
   }
 
   // nav
@@ -344,6 +352,7 @@ p.email {
   }
   .hero-container img {
     width: 150px;
+    margin-top: 0px;
   }
   .hero-container-link {
     margin: auto;
@@ -356,13 +365,12 @@ p.email {
 
   // portfolio
 
-  //  featured app
+  //  portfolio projects - common css
   .grouping-container {
-    background-color: $light-bg-color;
+    background-color: $light-grey;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-bottom: 80px;
   }
   .stacked-containers {
     display: flex;
@@ -390,9 +398,6 @@ p.email {
     margin: auto;
     text-align: center;
   }
-  .text-hackathon-app {
-    text-align: center;
-  }
   .description-featured-app,
   .description-allbirds-homage,
   .description-hackathon-app,
@@ -400,6 +405,9 @@ p.email {
   .description-design-file,
   .photo-johnogroats {
     margin-left: 30px;
+  }
+  .text-hackathon-app {
+    text-align: center;
   }
 
   // skills
@@ -417,14 +425,3 @@ p.email {
 
   // about
 }
-
-// color test
-// .section-hero,
-// .section-contact,
-// .section-skills,
-// .section-portfolio {
-//   background-color: $light-bg-color;
-// }
-// .section-nav {
-//   background-color: rgba(31, 31, 88, 0.651);
-// }

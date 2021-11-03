@@ -12,22 +12,22 @@ class Nav extends Component {
           </div>
           <div class="nav-menu">
             <div class="nav-menu-item">
-              <a href="placeonpage">
+              <a href="#work">
                 <span>Work</span>
               </a>
             </div>
             <div class="nav-menu-item">
-              <a href="placeonpage">
+              <a href="#skills">
                 <span>Skills</span>
               </a>
             </div>
             <div class="nav-menu-item">
-              <a href="placeonpage">
+              <a href="#about">
                 <span>About</span>
               </a>
             </div>
             <div class="nav-menu-item">
-              <a href="placeonpage">
+              <a href="#contact">
                 <span>Contact</span>
               </a>
             </div>

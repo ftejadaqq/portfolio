@@ -46,8 +46,10 @@ class Skills extends Component {
                 during the pandemic.
               </p>
             </div>
-            <div className="skills-container-item">
-              <p className="skills-container-link">See my work</p>
+            <div id="about" className="skills-container-item">
+              <a href="#see-work">
+                <p className="skills-container-link">See my work</p>
+              </a>
             </div>
           </div>
         </div>

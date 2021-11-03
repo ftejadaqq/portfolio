@@ -4,7 +4,7 @@ import MontessoriAppPic from "../images/montessoribymonth.png";
 class FeaturedApp extends Component {
   render() {
     return (
-      <section className="section-featured-app">
+      <section id="featured" className="section-featured-app">
         <div className="grouping-container featured-app">
           <div className="container heading-featured-app">
             <div>

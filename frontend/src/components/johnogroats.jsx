@@ -25,7 +25,7 @@ class Johnogroats extends Component {
             </div>
           </div>
           <div className="container photo-johnogroats">
-            <img src={JohnogroatsOriginal} alt="holidayphoto"></img>
+            <img id="skills" src={JohnogroatsOriginal} alt="holidayphoto"></img>
           </div>
         </div>
       </div>

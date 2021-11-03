@@ -17,7 +17,11 @@ class Hero extends Component {
               <b> communication </b>
               skills of a language teacher.
             </p>
-            <p className="hero-container-link">Check out my featured app!</p>
+            <a href="#featured">
+              <p id="work" className="hero-container-link">
+                Check out my featured app!
+              </p>
+            </a>
           </div>
         </div>
       </section>

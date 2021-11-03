@@ -21,7 +21,7 @@ class ThePainterApp extends Component {
             <div>
               <img src={ThePainterPic} alt="the painter app"></img>
               <div className="image-overlay">
-                <div className="overlay-text">VISIT SITE</div>
+                <div className="overlay-text">COMING SOON</div>
               </div>
             </div>
           </div>
