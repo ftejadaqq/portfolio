@@ -10,7 +10,6 @@ class About extends Component {
           </div>
           <div class="about-container-items">
             <div class="about-container-item">
-              <h3>Just me</h3>
               <p>
                 TLorem Ipsum is simply dummy text of the printing and
                 typesetting industry. Lorem Ipsum has been the industry's
@@ -20,7 +19,6 @@ class About extends Component {
               </p>
             </div>
             <div class="about-container-item">
-              <h3>Developer me</h3>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy

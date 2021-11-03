@@ -16,7 +16,7 @@ class Contact extends Component {
             I'm actively seeking a junior developer role. Please feel free to
             reach out.
           </p>
-          <p>ftejadaq7@gmail.com</p>
+          <p className="email">ftejadaq7@gmail.com</p>
           <div class="contact-container-icons">
             <div className="contact-container-icon">
               <img src={GithubIcon} alt="github logo"></img>

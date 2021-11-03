@@ -29,7 +29,7 @@ class HackathonApp extends Component {
             <h5 className="background">Background</h5>
             <p>
               During my time at The Jump Digital School, I participated in a
-              hackathon and collaborated with 5 classmates to create a React app
+              hackathon and collaborated with 5 developers to create a React app
               that helped children learn to read. We focused on phonetics and a
               simple layout that would be intuitive for any young child.
             </p>
