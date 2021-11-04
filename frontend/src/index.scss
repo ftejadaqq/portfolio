@@ -1,7 +1,7 @@
-$light-grey: rgb(247, 248, 248);
-$dark-grey: rgb(88, 89, 91);
-$coral: rgb(230, 84, 70);
-$grey-font: rgb(95, 95, 95);
+$white: white;
+$dark-grey: rgb(87, 87, 87);
+$coral: rgb(248, 139, 139);
+$grey-font: rgb(87, 87, 87);
 
 // mobile 375px; ipad 768px; desktop 1000px
 * {
@@ -36,18 +36,18 @@ p {
 h1,
 h2 {
   font-size: 2.9rem;
-  color: $dark-grey;
+  color: rgb(0, 0, 0);
   margin-bottom: 20px;
   font-family: "Poppins", sans-serif;
 }
 h3 {
   font-size: 2rem;
-  color: $dark-grey;
+  color: rgb(0, 0, 0);
   margin-bottom: 7px;
 }
 h4 {
   font-size: 1.8rem;
-  color: $coral;
+  color: rgb(87, 64, 217);
   margin-bottom: 7px;
 }
 h5 {
@@ -60,6 +60,7 @@ p {
   font-size: 1.8rem;
   font-family: "Lora", serif;
   color: $grey-font;
+  letter-spacing: 0.07rem;
 }
 
 a {
@@ -108,12 +109,11 @@ main {
   position: fixed;
   top: 0;
   width: 100vw;
-  background-color: white;
-  box-shadow: rgba(244, 244, 245, 0.945) 0px 1px 4px 0px;
+  background-color: rgb(88, 64, 216);
   z-index: 1;
 }
 .nav-container {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   align-items: center;
 }
 .nav-container,
@@ -124,18 +124,20 @@ main {
   font-family: "Arsenal", sans-serif;
   font-weight: 700;
   font-size: 2rem;
+  color: $white;
 }
 
 .nav-menu-item {
   margin-right: 7px;
 }
 .nav-menu-item:hover {
-  background-color: rgba(153, 154, 214, 0.671);
+  background-color: $coral;
   padding: 3px;
   transform: skew(0deg, 3deg);
 }
 .nav-menu-item a {
-  color: $dark-grey;
+  color: $white;
+  font-family: "Poppins", sans-serif;
 }
 .nav-menu-item:nth-child(5) {
   border-bottom: 2px solid $coral;
@@ -143,7 +145,7 @@ main {
 
 // hero
 .section-hero {
-  background-color: $light-grey;
+  background-color: rgb(239, 236, 251);
   margin: auto;
   height: 500px;
 }
@@ -166,25 +168,26 @@ main {
   margin-bottom: 30px;
   font-size: 2rem;
 }
-.hero-container-link {
+.hero-container-link,
+.skills-container-link {
   border: 2px solid $coral;
   border-radius: 5px;
   width: 250px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   color: $coral;
   padding: 8px 5px 8px 5px;
 }
 .hero-container-link:hover,
 .skills-container-link:hover {
-  background-color: rgba(153, 154, 214, 0.671);
-  color: $dark-grey;
+  background-color: $coral;
+  color: $white;
   border: none;
 }
 
 // portfolio
 .grouping-container {
-  background-color: $light-grey;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 30px;
   margin-bottom: 40px;
@@ -251,11 +254,21 @@ main {
   text-align: left;
 }
 .skills-container-items {
-  background-color: $light-grey;
+  background-color: rgb(239, 236, 251);
   padding: 10px;
   margin-bottom: 40px;
   margin-top: 40px;
   border-radius: 10px;
+}
+.skills-container-items {
+  color: $dark-grey;
+}
+.skills-container-link p {
+  color: $coral;
+}
+
+.skills-container-items h5 {
+  color: black;
 }
 .skills-container-item {
   margin: 20px;
@@ -264,22 +277,14 @@ main {
   font-size: 1.8rem;
 }
 .skills-container-link {
-  border: 2px solid $coral;
-  border-radius: 5px;
   width: 200px;
-  font-size: 1.5rem;
-  color: $coral;
-  padding: 8px 5px 8px 5px;
-  margin-top: 20px;
-  text-align: center;
 }
 
 // about
 .about-container {
-  background: rgba(153, 154, 214, 0.671);
   border-radius: 10px;
-  box-shadow: rgba(100, 100, 111, 0.219) 0px 7px 29px 0px;
   margin-bottom: 40px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .about-container h2 {
   border-bottom: 2px solid $coral;
@@ -310,17 +315,15 @@ main {
   margin-bottom: 20px;
   color: $dark-grey;
 }
-p.email {
-  color: rgb(230, 84, 70);
-}
 
 // footer
 .section-footer {
-  background-color: $light-grey;
+  background-color: rgb(88, 64, 216);
 }
 .footer-container p {
-  color: $dark-grey;
+  color: $white;
   font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
 }
 
 // media queries for ipad
@@ -410,7 +413,7 @@ p.email {
   }
   // nav
   .nav-container {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   // hero
@@ -434,7 +437,7 @@ p.email {
 
   //  portfolio projects - common css
   .grouping-container {
-    background-color: $light-grey;
+    background-color: white;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding-top: 40px;
     padding-bottom: 40px;

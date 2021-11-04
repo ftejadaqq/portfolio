@@ -11,19 +11,25 @@ class About extends Component {
           <div class="about-container-items">
             <div class="about-container-item">
               <p>
-                TLorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a type
-                specimen book
+                After 5 years in medical accreditation and education I decided
+                to take The Jump! My goal was to empower myself and be able to
+                create technical solutions to real world challenges.
               </p>
             </div>
             <div class="about-container-item">
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book
+                Passionate about child development, I recently completed the
+                first iteration of my baby development app, Montessori by Month.
+                I was proud to have completed my first design brief and
+                collaborate with illustrator, Mamen Morrillas for my SVG app
+                art. Working on Montessori by Month was a great opportunity for
+                me to practice using React, MySQL, Node.js and CSS.
+              </p>
+            </div>
+            <div class="about-container-item">
+              <p>
+                I'm actively seeking a developer role in London or remote and am
+                excited about what lays ahead!
               </p>
             </div>
           </div>
