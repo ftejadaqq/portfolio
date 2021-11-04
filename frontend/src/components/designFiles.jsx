@@ -6,7 +6,7 @@ class DesignFiles extends Component {
   render() {
     return (
       <div className="grouping-container design-file">
-        <div className="container heading-design-file">
+        <div className="container heading">
           <div>
             <h3>Clipboard Page and Four Card Designs</h3>
           </div>

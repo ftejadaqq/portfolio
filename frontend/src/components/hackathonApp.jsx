@@ -5,7 +5,7 @@ class HackathonApp extends Component {
   render() {
     return (
       <div className="grouping-container hackthon-app">
-        <div className="container text-hackathon-app">
+        <div className="container heading">
           <div>
             <h3>Learn to Read with Russell</h3>
           </div>
@@ -25,7 +25,7 @@ class HackathonApp extends Component {
               </div>
             </div>
           </div>
-          <div className="container description-hackathon-app">
+          <div className="container description">
             <h5 className="background">Background</h5>
             <p>
               During my time at The Jump Digital School, I participated in a

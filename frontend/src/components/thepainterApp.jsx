@@ -5,7 +5,7 @@ class ThePainterApp extends Component {
   render() {
     return (
       <div className="grouping-container the-painter-app">
-        <div className="container heading-allbirds-homage">
+        <div className="container heading">
           <div>
             <h3>Jose Tejada, The Painter</h3>
           </div>
@@ -21,11 +21,11 @@ class ThePainterApp extends Component {
             <div>
               <img src={ThePainterPic} alt="the painter app"></img>
               <div className="image-overlay">
-                <div className="overlay-text">COMING SOON</div>
+                <div className="overlay-text">DUE SOON</div>
               </div>
             </div>
           </div>
-          <div className="container description-the-painter-app">
+          <div className="container description">
             <div>
               <h5 className="background">Background</h5>
               <p>

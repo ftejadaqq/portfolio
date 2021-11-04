@@ -6,7 +6,7 @@ class FeaturedApp extends Component {
     return (
       <section id="featured" className="section-featured-app">
         <div className="grouping-container featured-app">
-          <div className="container heading-featured-app">
+          <div className="container heading">
             <div>
               <h3>Montessori by Month</h3>
             </div>
@@ -36,7 +36,7 @@ class FeaturedApp extends Component {
                 </div>
               </div>
             </div>
-            <div className="container description-featured-app">
+            <div className="container description">
               <div>
                 <h5 className="background">Background</h5>
                 <p>

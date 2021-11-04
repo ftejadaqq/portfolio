@@ -6,7 +6,7 @@ class Johnogroats extends Component {
   render() {
     return (
       <div className="grouping-container johnogroats">
-        <div className="container heading-johnogroats">
+        <div className="container heading">
           <div>
             <h3>John O' Groats</h3>
           </div>

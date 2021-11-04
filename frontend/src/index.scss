@@ -3,7 +3,7 @@ $dark-grey: rgb(88, 89, 91);
 $coral: rgb(230, 84, 70);
 $grey-font: rgb(95, 95, 95);
 
-// mobile 375px; desktop 1000px
+// mobile 375px; ipad 768px; desktop 1000px
 * {
   box-sizing: border-box;
 }
@@ -85,6 +85,9 @@ code {
 .portfolio-intro-container,
 .about-container {
   text-align: left;
+}
+.heading {
+  margin-bottom: 20px;
 }
 img {
   width: 300px;
@@ -320,42 +323,106 @@ p.email {
   font-size: 1.3rem;
 }
 
+// media queries for ipad
+@media (min-width: 768px) {
+  .content {
+    width: 650px;
+    padding: 30px;
+  }
+  // nav
+  .nav-menu-item {
+    margin-right: 20px;
+  }
+  // hero
+  .section-hero {
+    height: 490px;
+  }
+  .hero-container.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero-text {
+    width: 400px;
+    text-align: center;
+  }
+  .hero-container img {
+    margin-top: 30px;
+  }
+  .hero-container-link {
+    margin: auto;
+  }
+  // portfolio/work
+  .stacked-containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .stacked-containers img {
+    // margin-right: 40px;
+    width: 240px;
+  }
+  .portfolio-container svg {
+    margin-top: 0px;
+    width: 40px;
+  }
+  .heading,
+  .link-featured-app {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  .description,
+  .photo-johnogroats {
+    margin-left: 30px;
+  }
+  .text-hackathon-app {
+    text-align: center;
+  }
+  // portfolio intro
+  .portfolio-intro-container p,
+  .skills-heading {
+    width: 400px;
+  }
+  // skills
+  .skills-container-items {
+    text-align: center;
+    padding: 20px;
+  }
+  .skills-container-link {
+    margin: auto;
+  }
+  // contact
+  .contact-container p {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 // media queries for desktop
 @media (min-width: 850px) {
   // content for each section - generic css
   .content {
-    min-width: 750px;
+    width: 750px;
     padding: 30px;
   }
-
   // nav
   .nav-container {
     font-size: 1.6rem;
-  }
-  .nav-menu-item {
-    margin-right: 20px;
   }
 
   // hero
   .section-hero {
     height: 550px;
   }
-  .hero-text {
-    width: 400px;
-    text-align: center;
-  }
   .hero-container.content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     padding-top: 70px;
   }
   .hero-container img {
     width: 150px;
     margin-top: 0px;
-  }
-  .hero-container-link {
-    margin: auto;
   }
 
   // portfolio intro
@@ -372,55 +439,16 @@ p.email {
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .stacked-containers {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-  }
+
   .stacked-containers img {
     // margin-right: 40px;
     width: 300px;
-  }
-
-  .portfolio-container svg {
-    margin-top: 0px;
-    width: 40px;
-  }
-  .heading-featured-app,
-  .link-featured-app,
-  .heading-hackathon-app,
-  .heading-allbirds-homage,
-  .heading-design-file,
-  .heading-johnogroats {
-    width: 400px;
-    margin: auto;
-    text-align: center;
-  }
-  .description-featured-app,
-  .description-allbirds-homage,
-  .description-hackathon-app,
-  .description-the-painter-app,
-  .description-design-file,
-  .photo-johnogroats {
-    margin-left: 30px;
-  }
-  .text-hackathon-app {
-    text-align: center;
   }
 
   // skills
 
   .skills-heading {
     width: 400px;
-  }
-  .skills-container-items {
-    text-align: center;
-    padding: 20px;
-  }
-  .skills-container-link {
-    margin: auto;
   }
 
   // about

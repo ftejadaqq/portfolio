@@ -5,7 +5,7 @@ class AllbirdsHomage extends Component {
   render() {
     return (
       <div className="grouping-container allbirds-homage">
-        <div className="container heading-allbirds-homage">
+        <div className="container heading">
           <div>
             <h3>Allbirds Replica</h3>
           </div>
@@ -23,7 +23,7 @@ class AllbirdsHomage extends Component {
               <div className="overlay-text">VISIT SITE</div>
             </div>
           </div>
-          <div className="container description-allbirds-homage">
+          <div className="container description">
             <h5 className="background">Background</h5>
             <div>
               <p>
