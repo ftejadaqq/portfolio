@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import ZoomPic from "../images/zoom.png";
+import SquarePic from "../images/square.png";
 
 class About extends Component {
   render() {
@@ -31,6 +33,9 @@ class About extends Component {
                 I'm actively seeking a developer role in London or remote and am
                 excited about what lays ahead!
               </p>
+            </div>
+            <div class="about-container-item">
+              <img src={ZoomPic} alt="zoom pic"></img>
             </div>
           </div>
         </div>
