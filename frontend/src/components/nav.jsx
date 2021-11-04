@@ -32,7 +32,7 @@ class Nav extends Component {
               </a>
             </div>
             <div class="nav-menu-item">
-              <a href="placeonpage">
+              <a href="https://drive.google.com/file/d/1eHh9dQVhFNrShjBEqYEObaC8QkmTV4ym/view?usp=sharing">
                 <span>CV</span>
               </a>
             </div>

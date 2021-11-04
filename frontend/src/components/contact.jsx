@@ -19,13 +19,19 @@ class Contact extends Component {
           <p className="email">ftejadaq7@gmail.com</p>
           <div class="contact-container-icons">
             <div className="contact-container-icon">
-              <img src={GithubIcon} alt="github logo"></img>
+              <a href="https://github.com/ftejadaqq">
+                <img src={GithubIcon} alt="github logo"></img>
+              </a>
             </div>
             <div className="contact-container-icon">
-              <img src={EmailIcon} alt="email logo"></img>
+              <a href="mailto:ftejadaq7@gmail.com">
+                <img src={EmailIcon} alt="email logo"></img>
+              </a>
             </div>
             <div className="contact-container-icon">
-              <img src={LinkedinIcon} alt="linkedin logo"></img>
+              <a href="https://www.linkedin.com/in/faithtejada/">
+                <img src={LinkedinIcon} alt="linkedin logo"></img>
+              </a>
             </div>
           </div>
         </div>

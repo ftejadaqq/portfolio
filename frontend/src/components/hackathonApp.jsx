@@ -18,12 +18,14 @@ class HackathonApp extends Component {
         </div>
         <div className="stacked-containers">
           <div className="container image-hackathon-app overlaid">
-            <div>
-              <img src={HackathonPic} alt="hackathon app"></img>
-              <div className="image-overlay">
-                <div className="overlay-text">VISIT SITE</div>
+            <a href="https://learn-to-read.netlify.app/">
+              <div>
+                <img src={HackathonPic} alt="hackathon app"></img>
+                <div className="image-overlay">
+                  <div className="overlay-text">VISIT SITE</div>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
           <div className="container description">
             <h5 className="background">Background</h5>
