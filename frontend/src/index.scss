@@ -267,7 +267,10 @@ main {
 .container img {
   border-radius: 10px;
 }
-
+// specific rule for design file images
+.clipboard-cta {
+  margin-bottom: 20px;
+}
 // skills/what I can do
 .skills-heading,
 .skills-container-items {
@@ -386,6 +389,10 @@ main {
     margin-left: auto;
     margin-right: auto;
   }
+  // specific rule for design files
+  .clipboard-cta {
+    margin-bottom: 0;
+  }
   .stacked-containers {
     display: flex;
     flex-direction: row;
@@ -397,10 +404,7 @@ main {
     // margin-right: 40px;
     width: 240px;
   }
-  .portfolio-container svg {
-    margin-top: 0px;
-    width: 40px;
-  }
+
   .heading,
   .link-featured-app {
     width: 400px;

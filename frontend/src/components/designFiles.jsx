@@ -30,7 +30,7 @@ class DesignFiles extends Component {
               </div>
             </div>
             <a href="https://clipboarddesign.netlify.app/">
-              <div className="design-file-image">
+              <div className="clipboard-cta">
                 <p className="call-to-action">Visit clipboard</p>
               </div>
             </a>
