@@ -18,25 +18,39 @@ class DesignFiles extends Component {
           </div>
         </div>
         <div className="stacked-containers">
-          <div className="container image-design-file overlaid">
-            <div className="clipboard">
-              <img src={ClipboardPic} alt="clipboard landing page"></img>
-              <a href="https://clipboarddesign.netlify.app/">
-                <div className="image-overlay">
-                  <div className="overlay-text">VISIT SITE</div>
-                </div>
-              </a>
+          <div>
+            <div className="container image-design-file overlaid">
+              <div className="clipboard">
+                <img src={ClipboardPic} alt="clipboard landing page"></img>
+                <a href="https://clipboarddesign.netlify.app/">
+                  <div className="image-overlay">
+                    <div className="overlay-text">VISIT SITE</div>
+                  </div>
+                </a>
+              </div>
             </div>
+            <a href="https://clipboarddesign.netlify.app/">
+              <div className="design-file-image">
+                <p className="call-to-action">Visit clipboard</p>
+              </div>
+            </a>
           </div>
-          <div className="container image-design-file overlaid">
-            <div className="fourcard">
-              <img src={FourcardPic} alt="four card design"></img>
-              <a href="https://fourcarddesign.netlify.app/">
-                <div className="image-overlay">
-                  <div className="overlay-text">VISIT SITE</div>
-                </div>
-              </a>
+          <div>
+            <div className="container image-design-file overlaid">
+              <div className="fourcard">
+                <img src={FourcardPic} alt="four card design"></img>
+                <a href="https://fourcarddesign.netlify.app/">
+                  <div className="image-overlay">
+                    <div className="overlay-text">VISIT SITE</div>
+                  </div>
+                </a>
+              </div>
             </div>
+            <a href="https://fourcarddesign.netlify.app/">
+              <div className="design-file-image">
+                <p className="call-to-action">Visit four card</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>

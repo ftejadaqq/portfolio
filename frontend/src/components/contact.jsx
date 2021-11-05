@@ -16,7 +16,9 @@ class Contact extends Component {
             I'm actively seeking a junior developer role. Please feel free to
             reach out.
           </p>
-          <p className="email">ftejadaq7@gmail.com</p>
+          <a href="mailto:ftejadaq7@gmail.com">
+            <p className="email">ftejadaq7@gmail.com</p>
+          </a>
           <div class="contact-container-icons">
             <div className="contact-container-icon">
               <a href="https://github.com/ftejadaqq">
@@ -35,17 +37,6 @@ class Contact extends Component {
             </div>
           </div>
         </div>
-        {/* <div className="fixed-icons">
-          <div className="github-fixed-icon">
-            <img src={GithubFixedIcon} alt="github icon"></img>
-          </div>
-          <div className="send-fixed-icon">
-            <img src={SendFixedIcon} alt="send email icon"></img>
-          </div>
-          <div className="linkedin-fixed-icon">
-            <img src={LinkedinFixedIcon} alt="linkedin icon"></img>
-          </div>
-        </div> */}
       </section>
     );
   }

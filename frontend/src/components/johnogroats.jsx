@@ -30,6 +30,11 @@ class Johnogroats extends Component {
             <img id="skills" src={JohnogroatsOriginal} alt="holidayphoto"></img>
           </div>
         </div>
+        <a href="https://johnogroats.netlify.app/">
+          <div>
+            <p className="call-to-action">Visit site</p>
+          </div>
+        </a>
       </div>
     );
   }

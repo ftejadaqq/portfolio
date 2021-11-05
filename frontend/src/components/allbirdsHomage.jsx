@@ -25,6 +25,7 @@ class AllbirdsHomage extends Component {
               </div>
             </a>
           </div>
+
           <div className="container description">
             <h5 className="background">Background</h5>
             <div>
@@ -33,12 +34,17 @@ class AllbirdsHomage extends Component {
                 feel of their website. Some of the highlights in recreating
                 their homepage were practicising flexbox and responsive
                 rendering, and learning to be my own project manager by breaking
-                the project up into sensbile bits - because nothing can be
+                the project up into sensible bits - because nothing can be
                 solved monolithically.
               </p>
             </div>
           </div>
         </div>
+        <a href="https://allbirdsreplica.netlify.app/">
+          <div>
+            <p className="call-to-action">Visit site</p>
+          </div>
+        </a>
       </div>
     );
   }

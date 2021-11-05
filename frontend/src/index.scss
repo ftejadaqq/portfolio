@@ -11,7 +11,6 @@ $coral: rgb(248, 139, 139);
 html {
   font-size: 10px;
   height: 100vh;
-  width: 100vw;
 }
 
 body {
@@ -93,6 +92,24 @@ code {
 img {
   width: 300px;
 }
+.call-to-action {
+  text-align: center;
+  border: 2px solid $coral;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+  width: 130px;
+  margin-top: 25px;
+  font-size: 1.2rem !important;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: $coral;
+  padding: 8px 5px 8px 5px;
+}
+.call-to-action:hover {
+  background-color: $coral;
+  color: $white;
+}
+
 .nav-container,
 .nav-menu,
 .contact-container-icons {
@@ -108,13 +125,17 @@ main {
 .section-nav {
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
   background-color: rgb(88, 64, 216);
   z-index: 1;
+}
+.nav-menu {
+  align-items: center;
 }
 .nav-container {
   font-size: 1.2rem;
   align-items: center;
+  min-height: 50px;
 }
 .nav-container,
 .nav-menu-item {
@@ -128,19 +149,19 @@ main {
 }
 
 .nav-menu-item {
-  margin-right: 7px;
+  margin-right: 12px;
 }
-.nav-menu-item:hover {
-  background-color: $coral;
-  padding: 3px;
-  transform: skew(0deg, 3deg);
+.nav-menu-item a:hover {
+  border-bottom: 2px solid $coral;
 }
 .nav-menu-item a {
   color: $white;
   font-family: "Poppins", sans-serif;
 }
 .nav-menu-item:nth-child(5) {
-  border-bottom: 2px solid $coral;
+  background-color: $coral;
+  padding: 3px 7px 3px 7px;
+  border-radius: 3px;
 }
 
 // hero
@@ -183,7 +204,6 @@ main {
 .skills-container-link:hover {
   background-color: $coral;
   color: $white;
-  border: none;
 }
 
 // portfolio
@@ -198,15 +218,15 @@ main {
   margin-top: 15px;
   width: 250px;
 }
+
 .grouping-container p,
 .skills-container p {
   font-size: 1.4rem;
 }
 
 // for featured app
-.portfolio-container svg {
-  margin-top: 20px;
-  width: 40px;
+.see-figma {
+  margin-top: 10px;
 }
 // for hackathon app
 .background {
@@ -362,6 +382,10 @@ main {
     margin: auto;
   }
   // portfolio/work
+  .call-to-action {
+    margin-left: auto;
+    margin-right: auto;
+  }
   .stacked-containers {
     display: flex;
     flex-direction: row;
@@ -396,9 +420,6 @@ main {
     width: 400px;
   }
 
-  .clipboard {
-    margin-right: 30px;
-  }
   // skills
   .skills-container-items {
     text-align: center;

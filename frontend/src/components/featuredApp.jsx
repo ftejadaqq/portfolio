@@ -19,12 +19,6 @@ class FeaturedApp extends Component {
                 to the App Store using React Native
               </p>
             </div>
-            {/* <div>
-              <p>
-                Honourable mention: Vector Illustrations by Mamen Morrillas (an
-                absolute pleasure to work with)
-              </p>
-            </div> */}
           </div>
 
           <div className="stacked-containers">
@@ -48,42 +42,19 @@ class FeaturedApp extends Component {
                   recommendations. You can share the timeline with all your
                   loved ones and avoid excess irrelevant toys.
                 </p>
+                <a href="https://www.figma.com/file/j1dFMsRwz5vMQpZnuoNAML/montessoribymonth-draft?node-id=0%3A1">
+                  <p className="see-figma">
+                    See my <b>Figma design</b>.
+                  </p>
+                </a>
               </div>
             </div>
           </div>
-
-          <div className="container link-featured-app">
+          <a href="https://www.montessoribymonth.com">
             <div>
-              <a href="https://www.figma.com/file/j1dFMsRwz5vMQpZnuoNAML/montessoribymonth-draft?node-id=0%3A1">
-                <svg
-                  className="figma"
-                  viewBox="0 0 38 57"
-                  class="figma-1p2i2oq"
-                >
-                  <path
-                    fill="#1abcfe"
-                    d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z"
-                  ></path>
-                  <path
-                    fill="#0acf83"
-                    d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z"
-                  ></path>
-                  <path
-                    fill="#ff7262"
-                    d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z"
-                  ></path>
-                  <path
-                    fill="#f24e1e"
-                    d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z"
-                  ></path>
-                  <path
-                    fill="#a259ff"
-                    d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z"
-                  ></path>
-                </svg>
-              </a>
+              <p className="call-to-action">Visit site</p>
             </div>
-          </div>
+          </a>
         </div>
       </section>
     );

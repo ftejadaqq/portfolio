@@ -37,6 +37,11 @@ class HackathonApp extends Component {
             </p>
           </div>
         </div>
+        <a href="https://learn-to-read.netlify.app/">
+          <div>
+            <p className="call-to-action">Visit site</p>
+          </div>
+        </a>
       </div>
     );
   }

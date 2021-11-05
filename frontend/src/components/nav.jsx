@@ -6,7 +6,7 @@ class Nav extends Component {
       <section class="section-nav">
         <nav class="nav-container content">
           <div class="nav-logo">
-            <a href="www.faithtejada.com">
+            <a href="https://www.faithtejada.com">
               <span>{`{FT}`}</span>
             </a>
           </div>
