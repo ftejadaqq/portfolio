@@ -19,9 +19,11 @@ class AllbirdsHomage extends Component {
         <div className="stacked-containers">
           <div className="container image-allbirds-homage overlaid">
             <img src={AllbirdsPic} alt="allbirds homage"></img>
-            <div className="image-overlay">
-              <div className="overlay-text">VISIT SITE</div>
-            </div>
+            <a href="https://allbirdsreplica.netlify.app/">
+              <div className="image-overlay">
+                <div className="overlay-text">VISIT SITE</div>
+              </div>
+            </a>
           </div>
           <div className="container description">
             <h5 className="background">Background</h5>

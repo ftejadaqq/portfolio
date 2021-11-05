@@ -32,13 +32,13 @@ class About extends Component {
                   </a>
                 </b>
                 . I was proud to have completed my first design brief and
-                collaborate with illustrator,{" "}
+                collaborate with the beautiful illustrator,{" "}
                 <b>
-                  <a href="https://agentemorillas.com/">Mamen Morrillas</a>
+                  <a href="https://agentemorillas.com/">Mamen Morillas</a>
                 </b>{" "}
-                for my SVG app art. Working on Montessori by Month was a great
-                opportunity for me to practice using React, MySQL, Node.js and
-                CSS.
+                for my app's SVG art. Working on Montessori by Month was a great
+                opportunity for me to practice using <b>React</b>, <b>MySQL</b>,{" "}
+                <b>Node.js</b> and <b>CSS</b>.
               </p>
             </div>
             <div class="about-container-item">
