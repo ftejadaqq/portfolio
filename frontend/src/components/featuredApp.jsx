@@ -40,7 +40,12 @@ class FeaturedApp extends Component {
                   simple development timeline which shows how a baby typically
                   develops from 0-24 months, including stage-based toy
                   recommendations. You can share the timeline with all your
-                  loved ones and avoid excess irrelevant toys.
+                  loved ones and avoid excess irrelevant toys. All vector art is
+                  by{" "}
+                  <a href="https://agentemorillas.com/">
+                    <b>Mamen Morillas</b>
+                  </a>
+                  .
                 </p>
                 <a href="https://www.figma.com/file/j1dFMsRwz5vMQpZnuoNAML/montessoribymonth-draft?node-id=0%3A1">
                   <p className="see-figma">

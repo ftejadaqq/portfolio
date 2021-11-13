@@ -2,6 +2,7 @@ $white: white;
 $black: black;
 $dark-grey: rgb(87, 87, 87);
 $coral: rgb(248, 139, 139);
+$accent-purple: rgb(87, 64, 217);
 
 // mobile 375px; ipad 768px; desktop 1000px
 * {
@@ -46,7 +47,7 @@ h3 {
 }
 h4 {
   font-size: 1.8rem;
-  color: rgb(87, 64, 217);
+  color: $accent-purple;
   margin-bottom: 7px;
 }
 h5 {
@@ -126,7 +127,7 @@ main {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgb(88, 64, 216);
+  background-color: $accent-purple;
   z-index: 1;
 }
 .nav-menu {
@@ -149,7 +150,7 @@ main {
 }
 
 .nav-menu-item {
-  margin-right: 12px;
+  margin-left: 12px;
 }
 .nav-menu-item a:hover {
   border-bottom: 2px solid $coral;
@@ -347,7 +348,7 @@ main {
 
 // footer
 .section-footer {
-  background-color: rgb(88, 64, 216);
+  background-color: $accent-purple;
 }
 .footer-container p {
   color: $white;
@@ -363,7 +364,7 @@ main {
   }
   // nav
   .nav-menu-item {
-    margin-right: 20px;
+    margin-left: 20px;
   }
   // hero
   .section-hero {

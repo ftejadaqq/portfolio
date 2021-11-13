@@ -12,10 +12,10 @@ class Hero extends Component {
           <div class="hero-container-item hero-text">
             <h1>Hello, I'm Faith</h1>
             <p className="hero-text-description">
-              I'm a London-based <b>full-stack junior developer</b>. I combine
+              I'm a London-based <b>fullstack developer</b>. I combine
               <b> modern </b> software engineering skills with the{" "}
               <b> communication </b>
-              skills of a language teacher.
+              skills of a teacher and <b>organization</b> of a project manager.
             </p>
             <a href="#featured">
               <p id="work" className="hero-container-link">
