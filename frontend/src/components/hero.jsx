@@ -15,7 +15,7 @@ class Hero extends Component {
               I'm a London-based <b>fullstack developer</b>. I combine
               <b> modern </b> software engineering skills with the{" "}
               <b> communication </b>
-              skills of a teacher and <b>organization</b> of a project manager.
+              skills of a teacher and <b>organisation</b> of a project manager.
             </p>
             <a href="#featured">
               <p id="work" className="hero-container-link">
